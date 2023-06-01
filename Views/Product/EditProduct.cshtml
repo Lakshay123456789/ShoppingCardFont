@@ -1,0 +1,38 @@
+﻿@model Product
+<form asp-action="Editproduct" method="post">
+     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProductName" class="control- label"></label> 
+                <input asp-for="ProductName" value="@Model.ProductName"class="form-control" /> 
+                <span asp-validation-for= "ProductName" class="text-danger"></span>        
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductDescription" class="control- label"></label> 
+                <input asp-for="ProductDescription" value="@Model.ProductDescription"class="form-control" /> 
+                <span asp-validation-for= "ProductDescription" class="text-danger"></span>        
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductQuality" class="control- label"></label> 
+                <input asp-for="ProductQuality" value="@Model.ProductQuality"class="form-control" /> 
+                <span asp-validation-for= "ProductQuality" class="text-danger"></span>        
+            </div>
+             <div class="form-group">
+                <label asp-for="ProductPrice" class="control- label"></label> 
+                <input asp-for="ProductPrice" value="@Model.ProductPrice" class="form-control" /> 
+                <span asp-validation-for= "ProductPrice" class="text-danger"></span>        
+            </div>
+             <div class="form-group">
+                <label asp-for="ProductImage" class="control- label"></label> 
+                  <img src="@Model.ProductImage" alt="Product Image" height="200" width="200" />
+                <input asp-for="ProductImage" class="form-control" /> 
+                <span asp-validation-for= "ProductImage" class="text-danger"></span>      
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductCategory" class="control- label"></label> 
+                <input asp-for="ProductCategory"value="@Model.ProductCategory" class="form-control" /> 
+                <span asp-validation-for= "ProductCategory" class="text-danger"></span>        
+            </div>
+    <div class="text-center panel-body">
+        <button type="submit" asp-route-ProductId="@Model.ProductId"  class="btn btn-sm btn-primary">Edit</button>
+    </div>
+</form>

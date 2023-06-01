@@ -1,0 +1,39 @@
+﻿@model Product
+
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+<h4>Are your sure for delete this Product</h4>
+<h2>Product Details</h2>
+
+
+<div>
+    <h4>Product Name</h4>
+    <p>@Model.ProductName</p>
+</div>
+<div>
+    <h4>Product Description</h4>
+    <p>@Model.ProductDescription</p>
+</div>
+<div>
+    <h4>Product Price</h4>
+    <p>@Model.ProductPrice</p>
+</div>
+<div>
+    <h4>Product Quality</h4>
+    <p>@Model.ProductQuality</p>
+</div>
+<div>
+    <h4>Product Image</h4>
+    <img src="@Model.ProductImage" alt="Product Image" height="200" width="200" />
+</div>
+<div>
+    <h4>Product Category</h4>
+    <p>@Model.ProductCategory</p>
+</div>
+
+                      <form asp-action="GetProductById" asp-route-ProductId="@Model.ProductId" method="get">
+                 <button type="submit" class="btn btn-danger">Delete</button>
+              </form>
+<a asp-action="Index" class="btn btn-primary">Back to List</a>

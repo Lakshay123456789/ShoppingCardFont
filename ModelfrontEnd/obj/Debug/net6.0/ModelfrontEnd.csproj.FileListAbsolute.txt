@@ -1,0 +1,12 @@
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\bin\Debug\net6.0\ModelfrontEnd.deps.json
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\bin\Debug\net6.0\ModelfrontEnd.dll
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\bin\Debug\net6.0\ModelfrontEnd.pdb
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\ModelfrontEnd.csproj.AssemblyReference.cache
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\ModelfrontEnd.GeneratedMSBuildEditorConfig.editorconfig
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\ModelfrontEnd.AssemblyInfoInputs.cache
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\ModelfrontEnd.AssemblyInfo.cs
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\ModelfrontEnd.csproj.CoreCompileInputs.cache
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\ModelfrontEnd.dll
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\refint\ModelfrontEnd.dll
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\ModelfrontEnd.pdb
+E:\Aspirefox\C#\ShoppingCard2FrondEnd\ModelfrontEnd\obj\Debug\net6.0\ref\ModelfrontEnd.dll
